@@ -1,5 +1,8 @@
 # PCAPxDEG
-A Python Clustering Analysis Protocol Of Genes Expression Data Sets
+A Python Clustering Analysis Protocol Of Genes Expression Data Sets.
+
+
+
 Here, we describe the meaning of the Python statements used to  perform clustering analysis on gene expression data sets. We assume that users have  already installed Python and all the necessary additional packages on their machines. For  more information on setting up a Python environment for machine learning in Windows,  Linux and macOS, the readers could go through the Python user guides related to their installed operating system. 
 The first lines of code of any Python script identify the import section, mandatory to include into the script the necessary additional library i.e., the sklearn, numpy, matplolib, seaborn and pandas supplied as additional functions to the programmer. In Listings 3 and 4 the import section starts at line 1 and ends at line 8, in this way all the class and functions of each module can be used by a simple function call, e.g., to show a plot on the screen by using the matplot functions, can be used the following statement plt.show(). It is worth to note that each library different from the built-in must explicitly imported into the script before they can be used. 
 
